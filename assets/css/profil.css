@@ -1,0 +1,144 @@
+body
+{
+    height: 60vw;
+    background-image: linear-gradient(#f8f9fa, #fff);
+}
+
+.home
+{
+    margin-left: 5%;
+}
+
+.profil
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1vw solid rgb(206, 206, 206);
+    border-radius: 2%;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 5%;
+}
+
+.profil img
+{
+    width: 9vw;
+    height: auto;
+    margin-top: 10%;
+}
+
+.profil .name
+{
+    font-weight: 500;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    margin-bottom: 0 !important;
+}
+
+.profil .email
+{
+    margin-top: 1%;
+    color: grey;
+    font-size: 0.9vw;
+    margin-bottom: 0 !important;
+}
+
+.profil .riwayat
+{
+    margin-top: 5%;
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+    background-color: #53c351;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    border-radius: 0.4vw;
+}
+
+.data
+{
+    border: 0.1vw solid rgb(206, 206, 206);
+    width: 60vw;
+    height: 20vw;
+    margin-top: 1%;
+    border-radius: 1vw;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.data .judul
+{
+    color: rgb(68, 68, 255);
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+.form
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .column1
+{
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 8vw;
+    justify-content: space-between;
+}
+
+.column1 .field
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.field input
+{
+    padding: 0.2vw 0 0.2vw 1vw;
+    border-radius: 0.3vw;
+    border: 0.1vw solid rgb(206, 206, 206);
+    width: 25vw;
+}
+
+input.user
+{
+    background-color: rgb(222, 222, 222);
+}
+
+.form .column2
+{
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    height: 12vw;
+    width: 47%;
+    justify-content: space-between;
+}
+
+.column2 .field
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.button
+{
+    font-size: 1vw;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    border-radius: 0.5vw;
+}
+
+.field select
+{
+    padding: 0.2vw 0 0.2vw 1vw;
+    border-radius: 0.3vw;
+    border: 0.1vw solid rgb(206, 206, 206);
+    width: 25vw;
+}

@@ -1,0 +1,117 @@
+.kontainer
+{
+    background-image: linear-gradient(#f8f9fa, #fff);
+}
+
+.kontainer p
+{
+    font-size: 2vw;
+    font-weight: bold !important;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.daftar
+{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.daftar tr, .daftar td, .daftar th
+{
+    border: 0.1vw solid black;
+    padding: 0.7vw 0 0.7vw 0;
+    font-size: 1vw;
+}
+
+.datauser
+{
+    height: 4vw;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.data select, .data input
+{
+    font-size: 1vw;
+    width: 21vw !important;
+    border: 0.1vw solid black;
+    padding: 0.3vw 0 0.3vw 0.5vw;
+    border-radius: 0.3vw;
+}
+
+.data input
+{
+    background-color: #C4C4C4;
+}
+
+.alamat
+{
+    display: flex;
+    align-items: center;
+    width: 75% !important;
+    justify-content: space-between;
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+.alamat select, .alamat textarea
+{
+    font-size: 1vw;
+    border-radius: 0.3vw;
+    padding: 0.3vw 0 0.3vw 0.5vw;
+    border: 0.1vw solid black;
+}
+
+.alamat select  
+{
+    width: 25vw !important;
+}
+
+.button
+{
+    font-size: 1vw;
+    position: relative;
+    left: 5%;
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin-top: 1%;
+}
+
+.button a, .button button
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1vw solid black;
+    border-radius: 0.2vw;
+    width:6vw;
+}
+
+.button a
+{
+    color: black;
+}
+
+.button button
+{
+    background-color: #5278FF;
+    color: white;
+}
+
+.button a:hover
+{
+    color: black;
+}

@@ -1,0 +1,60 @@
+.background
+{
+    background-color: rgb(200, 200, 200);
+    height: 105vw;
+}
+
+.judul
+{
+    background-color: rgba(248, 249, 250, 255);
+    padding-bottom: 1vw;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.container .buah
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1vw 1vw 1vw 1vw;
+    align-items: center;
+    width: 15vw;
+    height: 22vw;
+    border-radius: 1vw;
+}
+
+.container p
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.buah img
+{
+    width: 13vw;
+}
+
+.buah a
+{
+    margin-top: 5%;
+    text-decoration: none;
+    background-color: #a0eb9f;
+    color: black;
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border-radius: 0.5vw;
+}
+
+.buah a:hover
+{
+    color: white;
+    background-color: #53c351;
+}

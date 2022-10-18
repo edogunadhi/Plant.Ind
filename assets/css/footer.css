@@ -1,0 +1,13 @@
+.bg-light p
+{
+    font-size: 1vw;
+    margin: 0 !important;
+}
+
+.bg-light
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+}

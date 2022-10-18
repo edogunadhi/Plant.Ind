@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home
+{
+    background-image: linear-gradient(#f8f9fa, #fff);
+    display: flex;
+    width: 100%;
+    height: 35vw;
+}
+
+.home .left
+{
+    padding-left: 5vw;
+    width: 100vw;
+    height: 100%;
+    padding-top: 7vw;
+}
+
+.header
+{
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.deskripsi
+{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+.container-left
+{
+    width: 30vw;
+}   
+
+.home .right
+{
+    height: 100%;
+    width: 100%;
+}
+
+.batas
+{
+    background-color: #53c351;
+    width: 100%;
+    height: 5vw;
+    border: none !important;
+}
+
+.toko
+{
+    display: flex;
+    height: 30vw;
+}
+
+.toko .left
+{
+    width: 100%;
+    height: 100%;
+}
+
+.toko .right
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.toko .right .toko-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.judul
+{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.penjelasan
+{
+    font-size: 1.2vw;
+}
+
+.konsultasi
+{
+    width: 100%;
+    display: flex;
+    height: 30vw;
+    background-image: linear-gradient(#fff, #f8f9fa);
+}
+
+.konsultasi .right
+{
+    width: 60%;
+    height: 30vw;
+}
+
+.konsultasi .left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.konsultasi .left .konsultasi-left
+{
+    width: 80%;
+    text-align: right;
+}
+
+.btn
+{
+    font-weight: 400 !important;
+    width: 100%;
+    font-size: 1.4vw !important;
+    border-radius: 0.5vw !important;
+}
+
+.btn-outline-primary
+{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    border: 0.2vw solid #0d6efd!important;
+}
+
+p
+{
+    margin-bottom: 3vw !important;
+}

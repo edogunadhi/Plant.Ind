@@ -1,0 +1,102 @@
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(#f8f9fa, #fff);
+}
+
+.kontainer p
+{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.daftar th,
+.daftar td {
+    text-align: center;
+    border: 0.1vw solid grey;
+    padding: 0.4vw 0 0.4vw 1vw;
+    font-size: 1vw;
+}
+
+table {
+    width: 90%;
+    margin-bottom: 2vw;
+}
+
+.daftar th {
+    border-bottom: 0.2vw solid black;
+}
+
+.daftar .beda
+{
+    text-align:left;
+    border: none;
+}
+
+.beda .delete
+{
+    color: red;
+}
+
+.beda .add
+{
+    color: black;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5vw;
+    justify-content: space-between;
+    width: 22vw;
+}
+
+.lanjut {
+    color: black;
+    border: 0.1vw solid black;
+    border-radius: 0.2vw;
+    padding: 0.1vw 1.5vw 0.1vw 1.5vw;
+    font-size: 1vw;
+}
+
+.checkout {
+    color: white;
+    background: #5278FF;
+    border: 0.1vw solid black;
+    border-radius: 0.2vw;
+    padding: 0.1vw 1vw 0.1vw 1vw;
+    font-size: 1vw;
+}
+
+.hapus {
+    color: white;
+    background: #FF3E3E;
+    border: 0.1vw solid black;
+    border-radius: 0.2vw;
+    padding: 0.1vw 1vw 0.1vw 1vw;
+    font-size: 1vw;
+}
+
+a:hover {
+    color: black;
+}
+
+a.lanjut, a.checkout
+{
+    text-decoration: none !important;
+}
+
+a:hover
+{
+    color: black !important;
+}
+
+.action form
+{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
